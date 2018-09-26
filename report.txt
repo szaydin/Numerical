@@ -1,0 +1,23 @@
+Sumeyye Aydin - 1340947 - Lab4
+
+%% ------------------------------------------------------------------------------------
+I have run the program with fdJacob2D and evalRobot2D seperately. I did not realized
+ too much difference when I run the program.Therefore, I can say that it is close enough
+to be useful in the optimaztion. 
+ However, I can say that smaller alpha gives more accurate result.
+ I tried with alpha = 1, 0.001 , 0.000001 and 0.1 . When I initialized
+alpha 1, the robot generally missed the target point.
+
+%% ------------------------------------------------------------------------------------
+
+Finite-difference approximation is safer than analytic derivative. First of all, finite
+difference will be more easier to compute compared to analytic derivative as it is stated
+in the lecture slides about kinematics in three dimension or more. Also, I just
+realized when I tried to use analytic derivative there are missing values which makes
+the calculation inaccurate. 
+
+%% -------------------------------------------------------------------------------------
+
+First of all, Broyden's method using approximate value as it is indicated before the for loop
+in my program. Therefore, approximation takes more time compared to Newton's method. However,
+Newton method is using the real Jacobian calculation so it will give more accurate result
